@@ -1,0 +1,122 @@
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: 'Titillium Web', sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  font-family: 'Cabin', sans-serif;
+  padding: 5px 0;
+  animation: fadein 5s;
+}
+
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  background:black;
+}
+
+h2 {
+  font-size: 22px;
+  letter-spacing: 1.25px;
+  color: #DE294E;
+}
+
+span {
+  font-family: 'Cabin', sans-serif; 
+  font-size: 17px;
+}
+
+p  {
+  margin: 15;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  background:black;
+}
+
+h3 {color :#DE294E
+}
+
+
+footer {
+  font-family: 'Cabin', sans-serif; 
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  background: #232C2F;  
+}
+
+
+
+.col-40 h1 {
+  font-size: 35px;
+  color: white;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+  color: #000;
+}
+
+.col-60 {
+  background: rgb(233, 8, 38);
+  width: 600px;
+  height: 600px;
+ 
+ 
+}
+
+.piezatablero  {
+  width: 200px;
+height: 200px;
+float: left;
+
+}
+
+.piezatablero img {
+width: 100%;
+height: 100%;
+}
+
+#flecha{
+  font-size: 60px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
